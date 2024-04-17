@@ -1,0 +1,186 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/kanoopz/Desktop/blockchain/ETHEREUM/hardhatProjects/testing/govying/contracts/GovernanceToken.sol": {
+      "lastModificationDate": 1713309385838,
+      "contentHash": "ba5316328f1d863ef18e712058777a39",
+      "sourceName": "contracts/GovernanceToken.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24",
+        "0.8.24"
+      ],
+      "artifacts": [
+        "Context",
+        "Counters",
+        "ECDSA",
+        "EIP712",
+        "ERC20",
+        "ERC20Burnable",
+        "ERC20Permit",
+        "ERC20Votes",
+        "GovernanceToken",
+        "IERC20",
+        "IERC20Metadata",
+        "IERC20Permit",
+        "IVotes",
+        "Math",
+        "Ownable",
+        "SafeCast",
+        "Strings"
+      ]
+    },
+    "/Users/kanoopz/Desktop/blockchain/ETHEREUM/hardhatProjects/testing/govying/contracts/delegatorAccount.sol": {
+      "lastModificationDate": 1713320992747,
+      "contentHash": "8ce2e626fe4d3f1d5626d1818c198fe8",
+      "sourceName": "contracts/delegatorAccount.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "delegateeModule",
+        "delegatorAccount",
+        "iGovernanceToken"
+      ]
+    },
+    "/Users/kanoopz/Desktop/blockchain/ETHEREUM/hardhatProjects/testing/govying/contracts/baseModule.sol": {
+      "lastModificationDate": 1713320933854,
+      "contentHash": "edb403274135eabe8b4ed8c983007acd",
+      "sourceName": "contracts/baseModule.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "baseModule",
+        "iGovernanceToken"
+      ]
+    },
+    "/Users/kanoopz/Desktop/blockchain/ETHEREUM/hardhatProjects/testing/govying/contracts/Gobying.sol": {
+      "lastModificationDate": 1713320942309,
+      "contentHash": "d024184edfbfe345bc935169b2b1e093",
+      "sourceName": "contracts/Gobying.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./delegatorAccount.sol"
+      ],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "Gobying"
+      ]
+    }
+  }
+}
