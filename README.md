@@ -1,13 +1,1 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+The Lobbying Governance Project is exploring the implications of creating a market mechanism for delegation within any decentralized protocol governance. This research encompasses several phases, starting with preliminary analysis that leads to the development of an impact document detailing the hypothesis, data, analysis, and conclusions, which then informs the creation of a Minimum Viable Product (MVP). This MVP aims to establish a marketplace where delegates can allocate a predetermined amount of tokens or USD to be distributed among all the votes that are assigned or delegated within a defined timeframe. Additionally, there will be a market where other participants can allocate their own capital to support a delegate—either by directly sending public gratifications or by allocating funds to be distributed to all delegated votes within a set period.
